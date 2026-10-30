@@ -1,0 +1,23 @@
+# Environment & Secrets
+.env
+.env.local
+
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Terraform state & provider binaries
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform.lock.hcl
+**/vars/env.tfvars
+
+# Local deployment state
+**/deployment_metadata.json
+**/.agents-cli*
+**/deployment_metadata.json.lock
